@@ -8,3 +8,4 @@ const leo2 = "25";
 console.log(leo == leo2);
 
 console.log(N1 === N2)
+
