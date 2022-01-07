@@ -1,8 +1,9 @@
-const arrayDeNomes = ['Maria', 'José', 'Ana'];
-const notasDosAlunos = [3, 4, 10];
+const arrayDeNomes = ['Maria', 'José', 'Ana',"Leonardo"];
+const notasDosAlunos = [8, 4, 6, 10];
 
-const alunosReprovados = arrayDeNomes.filter(function(nomes, index) {
-    return notasDosAlunos [index] < 5;
+                                              //elemento //indice
+const alunosReprovados = arrayDeNomes.filter(function(_, index) {
+    return notasDosAlunos [index] > 7;
 
 })
 
